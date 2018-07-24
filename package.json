@@ -1,0 +1,38 @@
+{
+  "name": "razzle-plugin-stylable",
+  "version": "1.0.0",
+  "description": "Get stylable running in your razzle installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "posttest": "npm run format",
+    "lint": "eslint . --cache --fix",
+    "format": "prettier --write '**/*.{js,css,md}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yldio/razzle-plugin-stylable.git"
+  },
+  "keywords": [
+    "razzle",
+    "stylable"
+  ],
+  "author": "Sara Vieira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yldio/razzle-plugin-stylable/issues"
+  },
+  "homepage": "https://github.com/yldio/razzle-plugin-stylable#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "prettier": "^1.13.7"
+  },
+  "dependencies": {
+    "stylable-webpack-plugin": "^1.1.7"
+  }
+}
